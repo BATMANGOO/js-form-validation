@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Useless form</title>
+</head>
+<body>
+  <h1>Useless Form</h1>
+  <form action="" novalidate>
+    <label for="">
+      Email
+      <input type="email" name="email" id="email">
+    </label>
+    <label for="">
+      Country
+      <select name="country" id="country" aria-placeholder="Select a country">
+        <option value="">Colombia</option>
+        <option value="">Argentina</option>
+        <option value="">Peru</option>
+      </select>
+    </label>
+    <label for="">
+      Zip code
+      <input type="text" name="zip" id="zip">
+    </label>
+    <label for="">
+      Password
+      <input type="password" name="password" id="password" minlength="5" maxlength="20">
+    </label>
+    <label for="">
+      password confirmation
+      <input type="password" name="password_confirmation" id="password_confirmation">
+    </label>
+    <button type="submit">Submit</button>
+  </form>
+  <script src="app.js"></script>
+</body>
+</html>
