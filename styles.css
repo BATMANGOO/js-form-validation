@@ -51,6 +51,18 @@ input, select, button {
   margin-bottom: 10px;
 }
 
-#email:invalid, #password:invalid, #password_confirmation:invalid, #zipcode:invalid {
-  border: 1px solid red;
+#email:valid, #password:valid, #password_confirmation:valid, #zip:valid {
+  border: 3px solid green;
+}
+
+#email:invalid, #password:invalid, #password_confirmation:invalid, #zip:invalid {
+  border: 3px solid red;
 } 
+
+.errors {
+  position: relative;
+  top: 220px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: red;
+}
